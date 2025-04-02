@@ -1,0 +1,28 @@
+.train-section{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../../assets/images/train.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:500px;
+    color:rgba(228, 233, 236, 0.932)
+    
+}
+.abc{
+    color:var(--primary-color);
+}
+
+.gh{
+    color:var(--secondary-color);
+}
+.train-section .bg-shape{
+    width:50%;
+    background-color: var(--priary-color);
+    background-size: cover;
+    bottom:0;top:0;
+}
+@media screen and (max-width:768px){
+    .train-section .bg-shape{
+        width:100%;
+    }
+}
